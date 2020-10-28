@@ -31,7 +31,7 @@ router.get("/contact", (req, res) => {
   res.render(__dirname + "/contact.html", { username, email });
 });
 //------------------------------------------------------------------------
-router.post("/v1/login", (req, res) => {
+router.get("/v1/login", (req, res) => {
   axios
     .get(url)
     .then((response) => {
