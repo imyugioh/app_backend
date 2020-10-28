@@ -1,0 +1,28 @@
+.bg-privacy100 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+body {
+  margin: 0px;
+}
+
+.container-privacy100 {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 15px;
+  background: rgba(132, 106, 221, 0.9);
+}
+
+.wrap-privacy100 {
+  width: 1000px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  justify-content: space-between;
+  padding: 30px 20px 30px 20px;
+}
